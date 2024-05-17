@@ -1,4 +1,4 @@
-body {
+.body {
     font-family: Arial, sans-serif;
     background: url('https://i.redd.it/uuunldy3tywa1.jpg') no-repeat center center fixed; /* Background da Mirage */
     background-size: cover; /* Cobrir toda a área */
@@ -13,8 +13,6 @@ body {
 .header {
     margin-bottom: 20px;
     text-align: center;
-    position: relative;
-    left: -100vw;
     transition: left 1s;
 }
 
@@ -33,8 +31,6 @@ body {
     width: 300px;
     text-align: center;
     color: #000000;
-    position: relative;
-    left: -100vw;
     transition: left 1s;
 }
 
