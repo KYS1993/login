@@ -1,0 +1,77 @@
+.body {
+    font-family: Arial, sans-serif;
+    background: url('https://i.redd.it/uuunldy3tywa1.jpg') no-repeat center center fixed; /* Background da Mirage */
+    background-size: cover; /* Cobrir toda a área */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    left: -100vw;
+    transition: left 1s;
+}
+
+.header h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.5);
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    left: -100vw;
+    transition: left 1s;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.input-group input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    color: #000000;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
